@@ -1,6 +1,10 @@
 body{
     background-color: rgb(213, 225, 239);
-    margin-top: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
 }
 img{
     border-radius: 12px;
@@ -11,10 +15,10 @@ img{
     background-color: white;
     border-radius: 20px;
     margin: auto;
-    width: 50%;
     padding-top: 20px;
     max-width: 340px;
     text-align: center;
+
 }
 @font-face {
     font-family: Outfit;
